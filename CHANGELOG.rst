@@ -2,11 +2,6 @@
 Changelog for package geometric_shapes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.5.1 (2016-08-16)
-
-* [sys] Revert std::shared_ptr to boost::shared_ptr for compatibility with collada_urdf. `#49 <https://github.com/ros-planning/geometric_shapes/issues/49>`_
-* [sys] Revert switch to C++11 `#49 <https://github.com/ros-planning/geometric_shapes/issues/49>`_
-
 0.5.0 (2016-07-31)
 ------------------
 * [fix] append cmake module path instead of prepending (`#22 <https://github.com/ros-planning/geometric_shapes/issues/22>`_)

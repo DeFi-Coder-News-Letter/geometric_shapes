@@ -251,7 +251,7 @@ class OcTree : public Shape
 {
 public:
   OcTree();
-  OcTree(const boost::shared_ptr<const octomap::OcTree> &t);
+  OcTree(const std::shared_ptr<const octomap::OcTree> &t);
 
   /** \brief The type of the shape, as a string */
   static const std::string STRING_NAME;
@@ -261,7 +261,7 @@ public:
   virtual void scaleAndPadd(double scale, double padd);
   virtual bool isFixed() const;
 
-  boost::shared_ptr<const octomap::OcTree> octree;
+  std::shared_ptr<const octomap::OcTree> octree;
 };
 
 
