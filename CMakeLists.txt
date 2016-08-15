@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 2.8.12)
 project(geometric_shapes)
 
-add_compile_options(-std=c++11)
-
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
 
 if (NOT CMAKE_CONFIGURATION_TYPES AND NOT CMAKE_BUILD_TYPE)
